@@ -3,6 +3,11 @@ package jm.task.core.jdbc;
 import jm.task.core.jdbc.service.UserServiceImpl;
 
 public class Main {
+
+    /**
+     * иквалс хешкод в модель добавлены
+     * Отсутствуют аннотации @Override поставил 
+     * */
     public static void main(String[] args) {
         UserServiceImpl userService = new UserServiceImpl();
         userService.createUsersTable();
